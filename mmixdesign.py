@@ -502,12 +502,12 @@ if selected=="DESIGN":
 	if st.button("GET MIX PROPORTION"):
 		st.write("**TRAIL 1 (By weight)**")
 		st.write("(*All in Kg/m^3*)")	
-		st.write("CEMENT : **%.2f N/mm^2** ." % Cement1)
-		st.write("WATER : **%.2f N/mm^2** ." % round(water2))
-		st.write("COARSE AGGREGATES (SSD) : **%.2f N/mm^2** ." % MCA)
-		st.write("FINE AGGREGATES (SSD) : **%.2f N/mm^2** ." % MFA)
+		st.write("CEMENT : **%.2f Kg/m^3** ." % Cement1)
+		st.write("WATER : **%.2f Kg/m^3** ." % round(water2))
+		st.write("COARSE AGGREGATES (SSD) : **%.2f Kg/m^3** ." % MCA)
+		st.write("FINE AGGREGATES (SSD) : **%.2f Kg/m^3** ." % MFA)
 		if l==0 and m==0 and n==0:
-			st.write("CHEMICAL ADMIXTURE : **%.2f N/mm^2** ." %  P1)
+			st.write("CHEMICAL ADMIXTURE : **%.2f Kg/m^2** ." %  P1)
 		else:
 			if m==0 and n==0:
 				st.write("MINERAL ADMIXTURE 1 : **%.2f Kg/m^3** ." % l2)
