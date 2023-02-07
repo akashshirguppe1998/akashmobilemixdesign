@@ -46,7 +46,7 @@ if selected=="NOTE":
 	st.write("7) Trail 1 results are for aggregates in SSD condition, Trail 2 results are for adjustments done for wet (OR) dry condition aggregates.")
 
 
-if selected=="ABOUT ME":
+if selected=="ABOUT":
 	col1,col2,col3=st.columns(3)
 	with col2:
 		st.title(f"{selected}")
@@ -65,7 +65,7 @@ if selected=="ABOUT ME":
 		st.write("***Email: akashshirguppe@gmail.com***")
 
 
-if selected=="MIX DESIGN":
+if selected=="DESIGN":
 	st.title("CONCRETE MIX DESIGN")
 	st.write("***(AS PER IS 10262-2019)***")
 	st.write("****")
