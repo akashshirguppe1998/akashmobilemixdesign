@@ -147,9 +147,9 @@ if selected=="DESIGN":
 	st.write("**WATER ABSORPTION**")
 	col1,col2=st.columns(2)
 	with col1:
-		Wab1=st.number_input("COARSE AGGREGATE")
+		Wab1=st.number_input("(WA)COARSE AGGREGATE")
 	with col2:
-		Wab2=st.number_input("FINE AGGREGATE")
+		Wab2=st.number_input("(WA)FINE AGGREGATE")
 
 
 
