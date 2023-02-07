@@ -110,7 +110,7 @@ if selected=="DESIGN":
 		if fck<65:
 			Zones=["I","II","III","IV"]
 			
-			zone=st.radio("**ZONES OF FINE AGGREGATES**",Zones)
+			zone=st.radio("ZONES OF FINE AGGREGATES",Zones)
 		elif fck>=65:
 			Zones=["I","II","III"]
 			#st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>',unsafe_allow_html=True)
