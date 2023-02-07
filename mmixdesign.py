@@ -23,7 +23,7 @@ selected=option_menu(
 	)
 
 
-if selected=="INSTRUCTIONS":
+if selected=="NOTE":
 	st.title(f"{selected}")
 	st.write("****")
 	st.write("1) The mix design calculations are done using **IS 10262-2019**.")
@@ -56,7 +56,7 @@ if selected=="ABOUT":
 		st.write("***Email: akashshirguppe@gmail.com***")
 
 
-if selected=="MIX DESIGN":
+if selected=="DESIGN":
 	st.title("CONCRETE MIX DESIGN")
 	st.write("***(AS PER IS 10262-2019)***")
 	st.write("****")
