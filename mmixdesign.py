@@ -85,7 +85,7 @@ if selected=="DESIGN":
 	with col1:
 		OPC=st.number_input("GRADE OF CEMENT")
 	with col2:
-		SpCement=st.number_input("SPECIFIC GRAVITY OF CEMENT",min_value=1)	
+		SpCement=st.number_input("SPECIFIC GRAVITY OF CEMENT",min_value=0.00001)	
 
 	col1,col2=st.columns(2)
 	with col1:
