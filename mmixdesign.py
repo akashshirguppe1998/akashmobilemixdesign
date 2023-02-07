@@ -541,7 +541,7 @@ if selected=="DESIGN":
 	## METRIC DISPLAY OF RESULTS TRAIL2 ##
 		
 	#EXPANDERS TO READ INPUT AND OUTPUT DETAILS
-	with st.expander("**CLICK HERE FOR DETAILED OUTPUT**"):
+	with st.expander("CLICK HERE FOR DETAILED OUTPUT"):
 		st.write("***")
 		st.write("**1] TARGET STRENGTH FOR MIX PROPORTIONING**")
 		st.write("Target strength of concrete = **%.2f N/mm^2** ." % fcf)
