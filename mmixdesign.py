@@ -504,8 +504,8 @@ if selected=="DESIGN":
 		st.write("(*All in Kg/m^3*)")	
 		st.write("CEMENT : **%.2f N/mm^2** ." % Cement1)
 		st.write("WATER : **%.2f N/mm^2** ." % round(water2))
-		st.write("COARSE AGGREGATES : **%.2f N/mm^2** ." % MCA)
-		st.write("FINE AGGREGATES : **%.2f N/mm^2** ." % MFA)
+		st.write("COARSE AGGREGATES (SSD) : **%.2f N/mm^2** ." % MCA)
+		st.write("FINE AGGREGATES (SSD) : **%.2f N/mm^2** ." % MFA)
 		if l==0 and m==0 and n==0:
 			st.write("CHEMICAL ADMIXTURE : **%.2f N/mm^2** ." %  P1)
 		else:
