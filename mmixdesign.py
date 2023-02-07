@@ -140,16 +140,16 @@ if selected=="DESIGN":
 	st.write("**MOISTURE CONTENT**")
 	col1,col2=st.columns(2)
 	with col1:
-		MoCo1=st.number_input("MOISTURE CONTENT COARSE AGGREGATE")
+		MoCo1=st.number_input("COARSE AGGREGATE")
 	with col2:
-		MoCo2=st.number_input("MOISTURE CONTENT FINE AGGREGATE")
+		MoCo2=st.number_input("FINE AGGREGATE")
 
 	st.write("**WATER ABSORPTION**")
 	col1,col2=st.columns(2)
 	with col1:
-		Wab1=st.number_input("WATER ABSORPTION COARSE AGGREGATE")
+		Wab1=st.number_input("COARSE AGGREGATE")
 	with col2:
-		Wab2=st.number_input("WATER ABSORPTION FINE AGGREGATE")
+		Wab2=st.number_input("FINE AGGREGATE")
 
 
 
