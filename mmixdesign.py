@@ -22,7 +22,7 @@ st.markdown(hide_st_style,unsafe_allow_html=True)
 st.image(Image.open('AK11.png'))
 selected=option_menu(
 	menu_title =None,
-	options =["INSTRUCTIONS","MIX DESIGN","ABOUT ME"],
+	options =["NOTE","MIX DESIGN","ABOUT ME"],
 	orientation="horizontal",
 
 
@@ -31,7 +31,7 @@ selected=option_menu(
 	)
 
 
-if selected=="INSTRUCTIONS":
+if selected=="NOTE":
 	st.title(f"{selected}")
 	st.write("****")
 	st.write("1) The mix design calculations are done using **IS 10262-2019**.")
@@ -98,22 +98,22 @@ if selected=="MIX DESIGN":
 	with col1:
 		if fck<65:
 			CAgg=["10","20","40"]
-			cagg=st.radio("*SIZE(MM)*",CAgg)
+			cagg=st.radio("**SIZE(MM)**",CAgg)
 		elif fck>=65:
 			CAgg=["10","12.5","20"]
-			cagg=st.radio("*SIZE(MM)*",CAgg)
+			cagg=st.radio("**SIZE(MM)**",CAgg)
 	with col2:	
 		CAsh=["ANGULAR","SUB-ANGULAR","GRAVEL(CRUSHED PARTICLES)","ROUNDED GRAVEL"]
-		cash=st.radio("*SHAPE OF AGGREGATES*",CAsh)
+		cash=st.radio("**SHAPE OF AGGREGATES**",CAsh)
 	with col3:
 		if fck<65:
 			Zones=["I","II","III","IV"]
 			
-			zone=st.radio("*ZONES OF FINE AGGREGATES*",Zones)
+			zone=st.radio("**ZONES OF FINE AGGREGATES**",Zones)
 		elif fck>=65:
 			Zones=["I","II","III"]
 			#st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>',unsafe_allow_html=True)
-			zone=st.radio("*ZONES OF FINE AGGREGATES*",Zones)
+			zone=st.radio("**ZONES OF FINE AGGREGATES**",Zones)
 
 
 
