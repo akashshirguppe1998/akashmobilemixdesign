@@ -295,7 +295,7 @@ if selected=="DESIGN":
 			water2=water1
 		elif cash=='SUB-ANGULAR':
 			water2=water1-float(10)
-		elif cash=='GRAVEL(CRUSHED)':
+		elif cash=='GRAVEL(CRUSHED PARTICLES)':
 			water2=water1-float(15)
 		elif cash=='ROUNDED GRAVEL':
 			water2=water1-float(20)
